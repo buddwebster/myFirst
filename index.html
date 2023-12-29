@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flexbox Exercises</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="container">
-    <div class="row">
-            <h1 class="col">This is a HEADING</h1>
-            <p class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, obcaecati.</p>
-            <a href="#" class="col">This is a link</a>
+   <div style="border: 2px dashed green;">FLEXBOX
+    <div class="flex" style="border: 2px solid rebeccapurple">
+        <div class="col" style="background-color: aqua;">Box 1gggg ggggg ggggggg ggggggg</div>
+        <div class="col" style="background-color: blanchedalmond;">Box 2</div>
+        <div class="col" style="background-color: darkcyan; color: white;">Box 3</div>
+        <div class="col"  style="background-color: lightcoral;">Box 4</div>
+        <div class="col" style="background-color: rgb(182, 255, 122);">Box 5</div>
+    </div>
+    <div class="flex2" style="border: 2px solid rebeccapurple; margin-top: 2rem; margin-bottom: 2rem;">
+        <div class="col2" style="background-color: aqua;">Box 1</div>
+        <div class="flex-col">
+            <div class="col-col" style="background-color: blanchedalmond;">Box 2</div>
+            <div class="col-col" style="background-color: darkcyan; color: white;">Box 3</div>
+        </div>
+        <div class="col2"  style="background-color: lightcoral;">Box 4</div>
+        <div class="col2" style="background-color: rgb(182, 255, 122);">Box 5</div>
+    </div>
+   </div>
+   <div class="container" style="border: 2px solid red; margin-top: 1rem">GRID
+    <div class="grid" style="border: 2px dashed green; width: 80%; margin: auto;">
+        <p class="grid-items" style="background-color: aqua;">Box 1</p>
+        <div class="grid-col">
+            <p style="background-color: yellow;">Box 2</p>
+            <p style="background-color: burlywood;">Box 3</p>
+        </div>
+        <!-- <p style="background-color: darkgray;">Box 4</p>
+        <p style="background-color: mediumseagreen;">Box 5</p> -->
     </div>
    </div>
 </body>

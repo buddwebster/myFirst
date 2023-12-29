@@ -1,0 +1,28 @@
+article {
+    border: 2px solid black;
+    padding: .5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+}
+
+.col-span-2 {
+    grid-column: span 2;
+    /* background-color: red; */
+}
+
+.row-span-2 {
+    grid-row: span 2;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: darkcyan;
+}
+
+@media screen and width(800px)
